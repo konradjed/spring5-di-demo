@@ -19,8 +19,8 @@ public class DiDemoApplication {
 
         controller.hello();
 
-        System.out.println(ctx.getBean(ConstructorInjectorController.class).sayHello());
         System.out.println(ctx.getBean(PropertyInjectedController.class).sayHello());
         System.out.println(ctx.getBean(SetterInjectedController.class).sayHello());
+        System.out.println(ctx.getBean(ConstructorInjectorController.class).sayHello());
     }
 }
